@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Overlock:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Handlee&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    min-height: 100vh;
+    background-color: rgb(181, 181, 181);
+    font-family: 'Handlee', cursive;
+    font-weight: 600;
+    
+}
+header{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+header > h1{
+    padding-top: 30px;
+    font-variant: small-caps;
+    font-family: 'Overlock', cursive;
+    font-size: 3em;
+}
+header > p{
+    padding-bottom: 30px;
+}
+a{
+    color: rgb(242, 196, 196);
+    text-decoration: none;
+}
+a:hover{
+    font-weight: bold;
+    text-decoration: underline;
+}
+section{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    padding-left: 30px;
+    line-height: 2em;
+    font-size: 2.7vw;
+    
+}
+.normal{
+    background-color: white;
+}
+.image{
+    background-color: rgb(61, 60, 60);
+    color: white;
+    box-shadow: inset 5px 5px 5px 0px #08080884;
+    background-size: cover;
+    background-attachment: fixed;
+}
+section.image > p{
+    background-color: rgba(0, 0, 0, 0.279);
+    display: inline-block;
+    padding: 8px;
+    border-radius: 10px;
+    box-shadow:  5px 5px 5px #08080884;
+    
+}
+section > p{
+    padding-bottom: 10px;
+}
+#img01{
+   
+    background-image: url(imagens/background001.jpg);
+    background-position: center right;
+   
+}
+#img02{
+    background-image: url(imagens/background002.jpg);
+    
+}
+footer{
+    background-color: black;
+    padding: 10px;
+    text-align: center;
+    color: white;
+} 

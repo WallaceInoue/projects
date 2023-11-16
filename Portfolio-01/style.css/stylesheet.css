@@ -56,6 +56,7 @@
 
 body {
     color: #ededed;
+    background: #081b29;
 }
 
 .header {
@@ -64,7 +65,7 @@ body {
     left: 0;
     width: 100%;
     padding: 20px 10%;
-    background: transparent;
+    background: #051639;
     display: flex;
     justify-content: space-between;
     /* controlar alinhamento horizontalde um conteiner flex*/
@@ -205,4 +206,81 @@ body {
         0 0 100px blue,
         0 0 200px white;
         transition: .3s;
+}
+/*.about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+    padding-bottom: 6rem;
+}*/
+.about{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    gap: 1.5rem;
+}
+.about-img img{
+    padding-bottom: 20%;
+    max-width: 630px;
+    height: auto;
+    width: 100%;
+    border-radius: 8px;
+}
+.about-text h2{
+    font-size: 60px;
+}
+.about-text span{
+    color: #0ef;
+}
+.about-text h4{
+    font-size: 29px;
+    font-weight: 600;
+    color: #fff;
+    line-height: 1.7;
+    margin: 15px 0 30px;
+}
+.about-text p{
+    color: #fff;
+    font-size: 20px;
+    line-height: 1.4;
+    margin-bottom: 4rem;
+
+}
+#id-services{
+    color: aliceblue;
+    font-size: 20px;
+    line-height: 1.4;
+    margin-bottom: 4rem;
+}
+.container{
+    padding: 90px;
+}
+.sub-title{
+    text-align: center;
+    font-size: 60px;
+    padding-bottom: 70px;
+}
+.sub-title span{
+    color: #0ef;
+}
+.services-list{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(259px,1fr));
+    grid-gap: 40px;
+    margin-top: 50px;
+}
+.services-list div{
+    background-color: transparent;
+    padding: 40px;
+    font-size: 13px;
+    font-weight: 13px;
+    
+    border-right: 10px;
+    border-radius: 20px;
+    transition:  0.5s, transform 0.5s;
+    box-shadow: 
+        1px 1px 20px #012290f7,
+        1px 1px 40px #0053b8f7;
 }
